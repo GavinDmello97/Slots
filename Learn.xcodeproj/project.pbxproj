@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16189C625095C6900CD61C8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16189C525095C6900CD61C8 /* Card.swift */; };
 		C1EAACEA2508A25100647F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAACE92508A25100647F38 /* AppDelegate.swift */; };
 		C1EAACEC2508A25100647F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAACEB2508A25100647F38 /* SceneDelegate.swift */; };
 		C1EAACEE2508A25100647F38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EAACED2508A25100647F38 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C16189C525095C6900CD61C8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C1EAACE62508A25100647F38 /* Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EAACE92508A25100647F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1EAACEB2508A25100647F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				C1EAACE92508A25100647F38 /* AppDelegate.swift */,
 				C1EAACEB2508A25100647F38 /* SceneDelegate.swift */,
 				C1EAACED2508A25100647F38 /* ContentView.swift */,
+				C16189C525095C6900CD61C8 /* Card.swift */,
 				C1EAACEF2508A25400647F38 /* Assets.xcassets */,
 				C1EAACF42508A25400647F38 /* LaunchScreen.storyboard */,
 				C1EAACF72508A25400647F38 /* Info.plist */,
@@ -270,6 +273,7 @@
 				C1EAACEA2508A25100647F38 /* AppDelegate.swift in Sources */,
 				C1EAACEC2508A25100647F38 /* SceneDelegate.swift in Sources */,
 				C1EAACEE2508A25100647F38 /* ContentView.swift in Sources */,
+				C16189C625095C6900CD61C8 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +437,6 @@
 		C1EAAD112508A25400647F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Learn/Preview Content\"";
 				DEVELOPMENT_TEAM = MC3AU94BYP;
@@ -443,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in..Learn;
+				PRODUCT_BUNDLE_IDENTIFIER = in.Learn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,7 +456,6 @@
 		C1EAAD122508A25400647F38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Learn/Preview Content\"";
 				DEVELOPMENT_TEAM = MC3AU94BYP;
@@ -463,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in..Learn;
+				PRODUCT_BUNDLE_IDENTIFIER = in.Learn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
